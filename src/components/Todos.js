@@ -2,7 +2,7 @@ import React from 'react'
 import Li from './Li';
 
 export default function Todos(props){
-    const {data,UpdateDataProperty,DeleteSingleData,UpdateDataContent} = props;
+    const {data,UpdateDataProperty,DeleteSIngleData,UpdateDataContent} = props;
     
     return <>
         <div id="todos">
@@ -14,7 +14,7 @@ export default function Todos(props){
                             key={item.id} 
                             item={item}  
                             UpdateDataProperty={UpdateDataProperty} 
-                            DeleteSingleData={DeleteSingleData}
+                            DeleteSIngleData={DeleteSIngleData}
                             UpdateDataContent={UpdateDataContent}
                         />
                     )

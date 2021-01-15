@@ -8,6 +8,7 @@ export default function Create(prop){
                 type="text" 
                 id="new-todo" 
                 placeholder="What need to be done?" 
+                autoComplete="off"
                 onKeyDown={(e)=>{
                     if(e.keyCode === 13) {
                         // console.log(e.target.value)
