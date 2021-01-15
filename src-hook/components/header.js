@@ -9,7 +9,7 @@ export default function Header(props){
     return <header>    
         <section>
             {/* <form id="form"> */}
-                <label htmlFor="title">TODOList</label>
+                <label htmlFor="title">React-hook-TODOList</label>
                 <input 
                     type="text" 
                     placeholder="添加todo" 
