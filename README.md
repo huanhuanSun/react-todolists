@@ -3,8 +3,5 @@
 #### 启动项目
 `yarn start`
 
-src 目录为 redux版todolist
 
-src-hook 目录为 hook版todolist
-
-src-class 目录为class版todolist
+下载代码后将文件名src-xxx中的-xxx去掉就可以运行，因为默认是读取 src目录下的文件
